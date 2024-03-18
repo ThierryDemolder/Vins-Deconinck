@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+    <figure>
+        <a href="index.html"><img src="images/header-deconinck.png" alt="les vins Deconinck "></a>
+    </figure>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Acceuil</a></li>
+            <li><a href="nouveautes.html">Nouveautés</a></li>
+            <li><a href="classiques.html">Nos classiques</a></li>
+            <li><a href="contact.html">Contact & Plan d'accès</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Contacts & Plan d'accès</h1>
+
+        <!-- Creation du formulaire-->
+        <form action="/votre-action" method="post">
+
+            <fieldset>
+                <legend>Vos coordonnées</legend>
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required><br><br>
+        
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom" required><br><br>
+        
+                <label for="telephone">Téléphone :</label>
+                <input type="tel" id="telephone" name="telephone" required><br><br>
+        
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required><br><br>
+            </fieldset>
+        
+            <fieldset>
+                <legend>Votre question</legend>
+                <label for="message"></label><br>
+                <textarea id="message" name="message" rows="4" cols="70" required></textarea><br><br>
+            </fieldset>
+        
+            <input type="submit" value="Envoyer">
+        </form>
+        
+        <div class="centrer-map">
+        <iframe src="https://maps.app.goo.gl/19yCz6mFvLScA6fq7"
+        style = "border:0"
+        frameborder="0" 
+        width ="600px" 
+        height="400px"
+        loading = "lazy"
+        allowfullscreen>
+        </iframe>
+        </div>
+    </main>
+    <footer>
+        <p>Deconinck Wine & Spirit - Rue Lahaut 13 1380 Genappes - Tel. 02/658.26.15</p>
+        <div class="legal-notice">
+            <h3>Mentions legales</h3>
+        </div>
+    </footer>
+</body>
+</html>¨
+
+[]

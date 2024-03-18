@@ -1,0 +1,175 @@
+
+    body {
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url(../images/fond.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rgba(255, 255, 255, 0.6)
+   
+    }
+    
+    header {
+     /*   border: 1px solid red;*/
+        text-align:center;
+    }
+
+    figure {
+        display: inline-block; /* Make the figure behave like an inline element */
+    }
+
+    img {
+    display: block; /* Ensure the image takes up the full width available */
+    margin: 0 auto; /* Center the image horizontally */
+    }
+
+    nav {
+       /* border: 1px solid blue; */
+        text-align: center; /* Pour centrer la navigation */
+        background-color: #666;
+        padding: 5px;
+    }
+
+    ul {
+        list-style-type: none; 
+        padding: 0;
+    }
+
+    li {
+        display: inline; /* Afficher les éléments de la liste en ligne */
+        margin-right: 10px; 
+    }
+
+    a {
+        text-decoration: none; 
+        color: whitesmoke;
+        opacity:0.7;
+    }
+
+    p::first-letter {
+    font-family: cursive;
+    font-size: 2em;
+}
+
+    main {
+     /*   border: 3px solid green; */
+        width:60%;
+        max-width:1240px;
+        min-width: 640px;
+        margin: 0 auto;
+        padding: 0 1em;
+    }
+
+/* ----------------------Nos Classiques ---------------------------------*/
+
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.container img {
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 1px solid red;
+    transition: transform 0.3s ease;
+}
+
+.container img:hover {
+    transform: scale(1.1);
+}
+
+figure figcaption {
+    border: 1px solid red;
+}
+
+/* ----------------------Contact Form ---------------------------------*/
+form {
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    border-radius: 12px;
+ /*   background-color: aliceblue; */
+}
+
+fieldset {
+    padding: 10px;
+    margin-bottom: 5%;
+    border: 1px solid #b80808;
+    border-radius: 12px;
+}
+
+legend {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #b80808;
+    font-size: 140%;
+   
+}
+
+label {
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    padding: 0 0.5em 0 0;
+}
+
+input {
+    width: 18em;
+}
+
+input[type="submit"] {
+    background-color: #666;
+    border: solid transparent;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 10px;   
+    padding: 10px;
+    text-align: center;
+    width: 20%;
+}
+
+.centrer-map{
+    text-align: center;
+   
+}
+
+
+/* -----------------------Footer ---------------------------------*/
+
+footer {
+    /*    border: 1px solid orangered; */
+        text-align: center;
+        }
+
+.nom-pied-index {
+    color: crimson;
+    font-weight: 900;
+    font-size: 1.25em;
+    }
+
+.legal-notice {
+    margin-top: 0.1px; /* Espacement entre l'adresse et les mentions légales */
+    }
+
+.acceuil-pic {
+    display: inline-block;
+}
+
+.acceuil {
+    text-align: center; 
+    background-color: #f2f2f2; 
+    padding: 20px;
+}
+
+.main-acceuil {
+    text-align: center;
+   
+}
